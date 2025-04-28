@@ -12,6 +12,6 @@
   />
 </svelte:head>
 
-
+<h1> The book from the books: random page picked from random books </h1>
 <BooksComponent books={data.books}/>
 
