@@ -12,7 +12,7 @@
   />
 </svelte:head>
 
-<div class="container text-center mt-4">
+<div class="container text-center mt-4 text-primary-emphasis">
 <h1> The book from the books</h1>
 <h4> Random pages picked from random books </h4>
 </div>
