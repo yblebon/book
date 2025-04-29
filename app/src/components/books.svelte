@@ -11,7 +11,7 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="panelsStayOpen-headingOne">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-{index}" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-          {book.title}
+          {book.title} <span class="mx-2 badge text-bg-secondary float-end">{book.date}</span>
         </button>
       </h2>
       <div id="panelsStayOpen-{index}" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
