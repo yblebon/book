@@ -12,6 +12,10 @@
   />
 </svelte:head>
 
-<h1> The book from the books: random page picked from random books </h1>
+<div class="container text-center mt-4">
+<h1> The book from the books</h1>
+<h4> Random pages picked from random books </h4>
+</div>
+
 <BooksComponent books={data.books}/>
 
